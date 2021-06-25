@@ -71,7 +71,7 @@ public class ChoosePanel extends JPanel {
         g.drawImage(Picture.getImage(Picture.INFO.name()), 2, 0, this);
     }
 
-    //установка имени радиобаттанов палубности
+    //установка имени радиобаттонов палубности
     public void setNameOneDeck(int count) {
         String text = "Однопалубный, осталось - " + count;
         oneDeck.setText(text);
@@ -108,7 +108,7 @@ public class ChoosePanel extends JPanel {
         else return 0;
     }
 
-    //класс слушатель который загружает пустое поле при нажатии кнопки "Убрать все корабли"
+    //класс слушатель, который загружает пустое поле при нажатии кнопки "Убрать все корабли"
     private class ActionClearField implements ActionListener {
 
         @Override
